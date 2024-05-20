@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Sorry, no numbers");
     }
 
-    // Дополнительное задание: поиск простых чисел в диапазоне от m до n
+    // Поиск простых чисел в диапазоне от m до n
     const m = getIntegerInput("Please enter the first number (m):");
     const n = getIntegerInput("Please enter the second number (n):");
     const lowerBound = Math.min(m, n);
